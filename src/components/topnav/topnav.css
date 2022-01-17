@@ -1,0 +1,55 @@
+.TopNav {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 10%;
+    margin-bottom: 2%;
+}
+.metaLogoImg{
+    height: 100%;
+}
+.logoDiv {
+    position: absolute;
+    left: 2vh;
+    bottom: 1vh;
+    height: 60%;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+}
+.TopNavButtonRow{
+    position: absolute;
+    right: 2vh;
+    bottom: 1vh;
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.TopNavButton {
+    background:none;
+    border: none;
+    width: 33.3%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.buttonImg{
+    transition: all 0.15s ease-in-out;
+    height: 100%;
+    filter: grayscale(30%)
+
+}
+.buttonImg:hover{
+    filter: grayscale(0%) contrast(115%) saturate(115%) brightness(135%);
+    height: 97.5%;
+    cursor: pointer;
+}
+.buttonImg:active{
+    filter: grayscale(0%) contrast(115%) saturate(115%) brightness(80%);
+}
+
+
+
+
+
