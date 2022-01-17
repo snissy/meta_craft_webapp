@@ -13,7 +13,7 @@ function MainBody() {
             </div>
             <div className="buttonContainer">
                 <button className="MainBodyButton" onClick={()=>{console.log("You clicked DYNMAP BUTTON")}}>
-                    DYNMAP
+                    Go to Dynmap
                 </button>
             </div>
 

@@ -26,6 +26,7 @@
     background-color: #4c7935;
     color: white;
     font-size: 14px;
+    font-family: 'Minecraft', sans-serif;
     border-radius: 10px;
     width: 100%;
     height: 30px;
@@ -40,7 +41,6 @@
      cursor: pointer;
  }
 .MainBodyButton:active {
-    background-color: #1f3316;
     box-shadow: -1px 1px 0#285014;
 }
 
