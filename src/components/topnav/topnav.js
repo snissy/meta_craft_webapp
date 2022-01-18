@@ -13,12 +13,15 @@ function TopNav() {
             <div className="TopNavButtonRow">
                 <button className="TopNavButton" onClick={()=>{console.log("You clicked the Zombie Head")}}>
                     <img className="buttonImg" src={ZombieHead} alt={"zombieHead"}/>
+                    <p className="p-nav">Home</p>
                 </button>
                 <button className="TopNavButton" onClick={()=>{console.log("You clicked the Player Head")}}>
                     <img className="buttonImg" src={PlayerHead} alt={"playerHead"}/>
+                    <p className="p-nav">Updates</p>
                 </button>
                 <button className="TopNavButton" onClick={()=>{console.log("You clicked the Skeleton Skull")}}>
                     <img className="buttonImg" src={SkeletonSkull} alt={"skeletonSkull"}/>
+                    <p className="p-nav">Something</p>
                 </button>
             </div>
         </div>

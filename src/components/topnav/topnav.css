@@ -11,7 +11,8 @@
 .logoDiv {
     position: absolute;
     left: 2vh;
-    bottom: 1vh;
+    top: 5vh;
+    bottom: 0vh;
     height: 60%;
     width: 20%;
     justify-content: center;
@@ -19,34 +20,50 @@
 }
 .TopNavButtonRow{
     position: absolute;
-    right: 2vh;
-    bottom: 1vh;
+    right: 6vh;
+    bottom: 0vh;
+    top: 5vh;
 
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
 }
 .TopNavButton {
+    display: flex;
+    flex-direction: column;
     background:none;
     border: none;
     width: 33.3%;
     justify-content: center;
-    display: flex;
+    align-items: center;
     position: relative;
 }
-.buttonImg{
-    transition: all 0.15s ease-in-out;
-    height: 100%;
-    filter: grayscale(30%)
 
+.p-nav {
+    font-size: 14px;
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    margin: 5px 0px 0px 0px;
 }
-.buttonImg:hover{
-    filter: grayscale(0%) contrast(115%) saturate(115%) brightness(135%);
-    height: 97.5%;
+
+.p-nav:hover {
     cursor: pointer;
 }
+
+.buttonImg{
+    transition: all 0.15s ease-in-out;
+    height: 70px;
+}
+.buttonImg:hover{
+    /* filter: grayscale(0%) contrast(115%) saturate(115%) brightness(135%);
+    height: 97.5%; */
+    cursor: pointer;
+    animation: headShake; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+}
 .buttonImg:active{
-    filter: grayscale(0%) contrast(115%) saturate(115%) brightness(80%);
+    /* filter: grayscale(0%) contrast(115%) saturate(115%) brightness(80%); */
+
 }
 
 

@@ -1,4 +1,5 @@
 import './mainbody.css';
+import sword from '/Users/agnesshutrick/Documents/GitHub/meta_craft_webapp/src/resources/img/swordgif.gif'
 
 function MainBody() {
     return (
@@ -9,7 +10,8 @@ function MainBody() {
                 </button>
             </div>
             <div className="RenderSpace">
-                <canvas id="threeCanvas"/>
+                <img src={sword} className="sword" alt="This will display an animated GIF" />
+                {/* <canvas id="threeCanvas"/> */}
             </div>
             <div className="buttonContainer">
                 <button className="MainBodyButton" onClick={()=>{console.log("You clicked DYNMAP BUTTON")}}>
