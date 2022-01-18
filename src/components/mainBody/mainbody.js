@@ -1,5 +1,5 @@
 import './mainbody.css';
-import sword from '/Users/agnesshutrick/Documents/GitHub/meta_craft_webapp/src/resources/img/swordgif.gif'
+import sword from '../../resources/img/swordgif.gif'
 
 function MainBody() {
     return (
