@@ -28,10 +28,8 @@ function UpdatesView() {
             />
         </div>
 
-            
 
-
-            {/* <div className="buttonContainer">
+            <div className="buttonContainer">
                 <button className="MainBodyButton"  onClick={()=>{console.log("You clicked Join whiteList BUTTON")}}>
                     Join whitelist
                 </button>
@@ -40,7 +38,7 @@ function UpdatesView() {
                 <button className="MainBodyButton" onClick={()=>{console.log("You clicked DYNMAP BUTTON")}}>
                     Go to Dynmap
                 </button>
-            </div> */}
+            </div>
 
         </div>
     );

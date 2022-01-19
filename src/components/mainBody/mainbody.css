@@ -1,12 +1,11 @@
-body {
-    background-color: black;
-}
 
 .MainBody {
     display: flex;
+    background-color: black;
     justify-content: space-around;
-    padding-left: 7vh;
-    padding-right: 7vh;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
 }
 
 .RenderSpace{
