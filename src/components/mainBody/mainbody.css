@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .MainBody {
     display: flex;
     justify-content: space-around;

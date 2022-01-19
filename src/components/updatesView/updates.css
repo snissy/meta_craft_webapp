@@ -1,0 +1,44 @@
+
+.UpdatesBody {
+    background-image: url("/src/resources/img/dirt.jpg");
+    background-repeat: repeat;
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerText {
+    background-image: linear-gradient(white, lightgray);
+    width: 700px;
+    height: 100%;
+    margin-top: 180px;
+    border-radius: 25px;
+    padding: 60px 40px 40px 40px;
+}
+
+.containerUpdates {
+    font-family: 'Roboto';
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 40px 20px 20px 20px;
+}
+
+.updatesH1 {
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: 'Minecraft', sans-serif;
+}
+
+.updatesDate {
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Minecraft', sans-serif;
+}
