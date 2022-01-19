@@ -1,6 +1,7 @@
 
 .UpdatesBody {
     background-image: url("/src/resources/img/dirt.jpg");
+    background-size: 150px;
     background-repeat: repeat;
     background-color: white;
     height: fit-content;

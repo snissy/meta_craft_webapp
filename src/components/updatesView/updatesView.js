@@ -3,7 +3,7 @@ import '../updatesView/updates.css';
 
 function UpdatesView() {
     return (
-        <div className="UpdatesBody">
+        <div className="UpdatesBody animate__animated animate__fadeIn">
             <div className="containerText">
                 <h1 className="updatesH1">Updates</h1>
                 <h1 className="updatesDate">01-02-2022</h1>

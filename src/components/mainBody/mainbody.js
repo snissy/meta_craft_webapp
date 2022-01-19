@@ -3,7 +3,7 @@ import sword from '../../resources/img/swordgif.gif'
 
 function MainBody() {
     return (
-        <div className="MainBody">
+        <div className="MainBody animate__animated animate__fadeIn">
             <div className="buttonContainer">
                 <button className="MainBodyButton"  onClick={()=>{console.log("You clicked Join whiteList BUTTON")}}>
                     Join whitelist

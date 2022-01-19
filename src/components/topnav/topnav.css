@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 120px;
+    height: 100px;
     background-color: rgb(0,0,0, 0.6);
 }
 .metaLogoImg{
@@ -29,11 +29,17 @@
     margin-left: 40px;
 }
 
+.TopNavButton:hover .buttonImg {
+    animation: headShake;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
 .p-nav {
     font-size: 14px;
     font-family: 'Minecraft', sans-serif;
     color: white;
-    margin: 5px 0px 0px 0px;
+    margin: 0px;
 }
 
 .p-nav:hover {
@@ -44,13 +50,7 @@
     transition: all 0.15s ease-in-out;
     height: 70px;
 }
-.buttonImg:hover{
-    /* filter: grayscale(0%) contrast(115%) saturate(115%) brightness(135%);
-    height: 97.5%; */
-    cursor: pointer;
-    animation: headShake; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s;
-}
+
 .buttonImg:active{
     /* filter: grayscale(0%) contrast(115%) saturate(115%) brightness(80%); */
 
