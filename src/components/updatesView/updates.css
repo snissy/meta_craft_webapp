@@ -19,17 +19,21 @@
     background-image: linear-gradient(white, lightgray);
     width: 700px;
     height: 100%;
-    margin-top: 180px;
+    margin-top: 120px;
     border-radius: 25px;
     padding: 60px 40px 40px 40px;
 }
 
 .containerUpdates {
-    font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 25px;
     background-color: white;
-    padding: 40px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 15px;
+}
+
+.updatesText {
+    font-family: 'Roboto', sans-serif;
 }
 
 .updatesH1 {
@@ -38,8 +42,14 @@
     font-family: 'Minecraft', sans-serif;
 }
 
-.updatesDate {
+.updatesTitle {
     font-size: 18px;
-    margin-left: 20px;
     font-family: 'Minecraft', sans-serif;
+    margin-bottom: 0px;
+}
+
+.updatesDate {
+    font-size: 14px;
+    font-family: 'Minecraft', sans-serif;
+    margin-top: 2px;
 }
