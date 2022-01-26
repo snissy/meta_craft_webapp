@@ -14,7 +14,7 @@ function MainBody() {
                 {/* <canvas id="threeCanvas"/> */}
             </div>
             <div className="buttonContainer">
-                <button className="MainBodyButton" onClick={()=>{console.log("You clicked DYNMAP BUTTON")}}>
+                <button className="MainBodyButton" onClick={()=>{window.open("http://mc.datasektionen.se:5555", '_blank').focus();}}>
                     Go to Dynmap
                 </button>
             </div>
