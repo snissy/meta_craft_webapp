@@ -5,7 +5,7 @@ function MainBody() {
     return (
         <div className="MainBody animate__animated animate__fadeIn">
             <div className="buttonContainer">
-                <button className="MainBodyButton"  onClick={()=>{console.log("You clicked Join whiteList BUTTON")}}>
+                <button className="MainBodyButton"  onClick={()=>{window.open("https://docs.google.com/forms/d/e/1FAIpQLSfHzxLJlmAUbI-i0ImYj8vd7kElPndkqhYznQYZLa2dWMrI1g/viewform?usp=sf_link", '_blank').focus();}}>
                     Join whitelist
                 </button>
             </div>
