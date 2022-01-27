@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-startThreeJS()
+//startThreeJS()
 
 
 
