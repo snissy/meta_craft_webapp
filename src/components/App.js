@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
-    
     <div className="App">
       <Router>
         <TopNav/>
@@ -20,13 +19,9 @@ function App() {
             <Route path="/">
               <MainBody/>
             </Route>
-
         </Switch>
-
-      
       </Router>
     </div>
-    
   );
 }
 
