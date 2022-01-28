@@ -7,8 +7,7 @@ function OnlinePlayerList() {
     useEffect(()=>{
         mcServerInfoSource.getServerInfo().then(res=>{setData(res)})
     },[])
-
-    /**/
+    
 
     return(<div className={"OnlinePlayerList"}>
             {data &&

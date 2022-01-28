@@ -1,6 +1,6 @@
 import BasicJsonApiCall from "./basicFetcher";
 
-const BASE_NEWS_URL = "/mcServerInfo"
+const BASE_NEWS_URL = "/api/mcServerInfo"
 
 const  mcServerInfoSource={
 
