@@ -29,9 +29,12 @@ function TopNav() {
                         <p className="p-nav">Updates</p>
                     </Link>
                 </button>
+                
                 <button className="TopNavButton" onClick={()=>{console.log("You clicked the Skeleton Skull")}}>
+                <Link to="/rules">
                     <img className="buttonImg" src={SkeletonSkull} alt={"skeletonSkull"}/>
-                    <p className="p-nav">Something</p>
+                    <p className="p-nav">Rules</p>
+                </Link>
                 </button>
             </div>
         </div>
